@@ -1,3 +1,5 @@
+[<img src="https://github.com/magepow/themeforest/blob/master/shopify/shopify_affiliate.jpg" >](https://shopify.pxf.io/VyL446)
+
 # Magento 2 Animation Image
 
 Magento 2 when add image with file .gif in admin is animation work but image is displayed but Animation is not working on frontend. So I did change a little tweak in the module to get the .gif image to work.
