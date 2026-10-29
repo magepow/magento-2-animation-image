@@ -1,13 +1,53 @@
-[<img src="https://github.com/magepow/themeforest/blob/master/shopify/shopify_affiliate.jpg" >](https://shopify.pxf.io/VyL446)
+# Magento 2 Animated GIF
 
-# Magento 2 Animation Image
+**Magepow AnimationImage** fixes the issue where animated GIF images uploaded in the admin are displayed as static images on the Magento 2 storefront. The module tweaks image asset handling so `.gif` files keep their animation on the frontend.
 
-Magento 2 when add image with file .gif in admin is animation work but image is displayed but Animation is not working on frontend. So I did change a little tweak in the module to get the .gif image to work.
+## Features
 
+- Preserves GIF animation for product images on the storefront.
+- Lightweight override of image asset handling.
+- No configuration required.
 
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/paypalme/alopay)
+## Compatibility
 
-      
+- Magento 2.3.x / 2.4.x
+- PHP 7.3+ / 8.x (as supported by your Magento version)
+
+## Installation
+
+[![Latest Stable Version](https://poser.pugx.org/magepow/animationimage/v/stable)](https://packagist.org/packages/magepow/animationimage)
+[![Total Downloads](https://poser.pugx.org/magepow/animationimage/downloads)](https://packagist.org/packages/magepow/animationimage)
+[![Daily Downloads](https://poser.pugx.org/magepow/animationimage/d/daily)](https://packagist.org/packages/magepow/animationimage)
+
+### Composer Installation
+
+```bash
+composer require magepow/animationimage
+php bin/magento module:enable Magepow_AnimationImage
+php bin/magento setup:upgrade
+php bin/magento setup:di:compile
+php bin/magento cache:flush
+```
+
+## Usage
+
+Upload a `.gif` image to a product in the admin. The animation will now be preserved on the storefront.
+
+## Support
+
+- Website: https://magepow.com
+- Email: support@magepow.com
+
+## License
+
+OSL-3.0 / AFL-3.0
+
+## Donation
+
+If this project help you reduce time to develop, you can give me a cup of coffee :) 
+
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/paypalme/dongvannguyen)
+
 **[Our Magento 2 Extensions](https://magepow.com/magento-2-extensions.html)**
 
 * [Magento 2 Recent Sales Notification](https://magepow.com/magento-2-recent-order-notification.html)
@@ -72,22 +112,20 @@ Magento 2 when add image with file .gif in admin is animation work but image is 
 
 * [Supermarket Responsive Magento 2 Theme](https://1.envato.market/c/1314680/275988/4415?u=https://themeforest.net/item/supermarket-responsive-magento-1-2-theme/18447995)
 
-**[Our Shopify Themes](https://themeforest.net/user/alotheme)**
-
-* [Dukamarket - Multipurpose Shopify Theme](https://1.envato.market/c/1314680/275988/4415?u=https://themeforest.net/item/dukamarket-multipurpose-shopify-theme/36158349)
-
-* [Ohey - Multipurpose Shopify Theme](https://1.envato.market/c/1314680/275988/4415?u=https://themeforest.net/item/ohey-multipurpose-shopify-theme/34624195)
-
-* [Flexon - Multipurpose Shopify Theme](https://1.envato.market/c/1314680/275988/4415?u=https://themeforest.net/item/flexon-multipurpose-shopify-theme/33461048)
-
 **[Our Shopify App](https://apps.shopify.com/partners/maggicart)**
 
 * [Magepow Infinite Scroll](https://apps.shopify.com/magepow-infinite-scroll)
 
-* [Magepow Promotionbar](https://apps.shopify.com/magepow-promotionbar)
+* [Magepow Product Zoom](https://apps.shopify.com/magepow-productzoom)
 
 * [Magepow Size Chart](https://apps.shopify.com/magepow-size-chart)
 
+**[Our Shopify Themes](https://themeforest.net/user/alotheme)**
+
+* [Uminex - Fastest Shopify 2.0 Theme](https://themeforest.net/item/uminex-fastest-shopify-20-theme/46350215)
+* [Dukamarket - Multipurpose Shopify Theme](https://1.envato.market/c/1314680/275988/4415?u=https://themeforest.net/item/dukamarket-multipurpose-shopify-theme/36158349)
+
 **[Our WordPress Theme](https://themeforest.net/user/alotheme/portfolio)**
 
-* [SadesMarket - Multipurpose WordPress Theme](https://1.envato.market/c/1314680/275988/4415?u=https://themeforest.net/item/sadesmarket-multipurpose-wordpress-theme/35369933)
+* [KuteShop - Marketplace Elementor WooCommerce Theme](https://1.envato.market/c/1314680/275988/4415?u=https://themeforest.net/item/kuteshop-multipurpose-woocommerce-wordpress-theme/13012521)
+
